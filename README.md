@@ -1,4 +1,4 @@
-# 姚辉 · GitHub Pages 个人作品集（部署示例）
+# 姚辉 · GitHub Pages 个人作品集
 
 基于 [GameReach](https://github.com/usbfl/GameReach) 和 [TracePatch](https://github.com/usbfl/TracePatch) 的公开内容与用户提供的个人简历生成。
 
@@ -23,15 +23,6 @@ python -m http.server 8000
 
 然后浏览器打开 http://localhost:8000/ 。Windows 的 `py -3 -m http.server 8000` 也可以。
 
-## 发布为个人主页 `https://usbfl.github.io/`
-
-1. 在 https://github.com/new 创建名为 **`usbfl.github.io`** 的公开仓库（注意不是 `suiyi.github.io`）。
-2. 将此文件夹中的**所有文件和目录（包括隐藏的 `.nojekyll`）**上传到新仓库的根目录。建议以 `main` 为默认分支。
-3. 打开新仓库 `Settings > Pages > Build and deployment`。
-4. `Source` 选择 **Deploy from a branch**，`Branch` 选择 **main**、**/(root)**，保存。
-5. GitHub 处理部署后，在 `https://usbfl.github.io/` 查看；部署状态可在仓库的 `Actions` 或 `Settings > Pages` 中检查。
-
-注意：`usbfl/suiyi.github.io` 已用于另一个 Alpha Lab 项目，不要覆盖它。现有 GameReach 和 TracePatch 仓库也无需复制源码到主页仓库。
 
 ## 更新方法
 
